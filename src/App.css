@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 100vh;
+  background-color: skyblue;
+}
+.form-control {
+  display: flex;
+  padding: 10px;
+}
+
+.lebel {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.input {
+  height: 30px;
+}
+.marginY {
+  margin-right: 10px;
+}
+.btn {
+  padding: 10px;
+}
+.danger {
+  color: red;
+}
